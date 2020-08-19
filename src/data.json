@@ -1,0 +1,1300 @@
+{
+  "nodes": [
+    {
+      "id": "charles-hayes", 
+      "filterable": true,
+      "fullName": "Charles Hayes",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Executive Managing Director"],
+      "locationFilter": ["Shanghai", "Tokyo"],
+      "homeOffice": [
+        "Asia"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+      ],
+      "misc": [
+        "Asia Regional Managing Director"
+      ]
+    },
+    {
+      "id": "mike-see", 
+      "filterable": true,
+      "fullName": "Mike See",
+      "entityType": "individual",
+      "roleFilter": ["Executive Talent Director"],
+      "role": ["Executive Talent Director"],
+      "locationFilter": ["Shanghai", "Tokyo"],
+      "homeOffice": [
+        "Asia"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "john-won", 
+      "filterable": true,
+      "fullName": "John Won",
+      "entityType": "individual",
+      "roleFilter": ["Business Development Director"],
+      "role": ["Business Development Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Co-Lab",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "ian-lee",
+      "filterable": true,
+      "fullName": "Ian Lee",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Co-Lab",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "joe-gerber", 
+      "filterable": true,
+      "fullName": "Joe Gerber",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Co-Lab",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "zena-barakat", 
+      "filterable": true,
+      "fullName": "Zena Barakat",
+      "entityType": "individual",
+      "roleFilter": ["Design Director"],
+      "role": ["Design Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4C",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "melanie-bell-mayeda", 
+      "filterable": true,
+      "fullName": "Melanie Bell-Mayeda",
+      "entityType": "individual",
+      "roleFilter": ["Design Director"],
+      "role": ["Design Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4C",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "bryan-walker", 
+      "filterable": true,
+      "fullName": "Bryan Walker",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4C",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "vivian-barad", 
+      "filterable": true,
+      "fullName": "Vivian Barad",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4F",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "lynda-deakin", 
+      "filterable": true,
+      "fullName": "Lynda Deakin",
+      "entityType": "individual",
+      "locationFilter": ["Bay"],
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4H",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "heather-emerson", 
+      "filterable": true,
+      "fullName": "Heather Emerson",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4L",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "tracee-worley", 
+      "filterable": true,
+      "fullName": "Tracee Worley",
+      "entityType": "individual",
+      "roleFilter": ["Senior Design Lead"],
+      "role": ["Senior Design Lead"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "D4L",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "sandy-speicher", 
+      "filterable": true,
+      "fullName": "Sandy Speicher",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["CEO"],
+      "locationFilter": ["Bay"],
+      "leadershipTeamFilter": ["Executive Leadership Team"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse",
+        "Heartbeat",
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "dave-strong", 
+      "filterable": true,
+      "fullName": "Dave Strong",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["CFO"],
+      "locationFilter": ["Bay"],
+      "leadershipTeamFilter": ["Executive Leadership Team"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse"
+      ]
+    },
+    {
+      "id": "tim-brown", 
+      "filterable": true,
+      "fullName": "Tim Brown",
+      "entityType": "individual",
+      "roleFilter": ["Chair"],
+      "role": ["Chair"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "lauren-collins", 
+      "filterable": true,
+      "fullName": "Lauren Collins",
+      "entityType": "individual",
+      "roleFilter": ["Chief of Staff"],
+      "role": ["Chief of Staff"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse",
+        "Heartbeat",
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "lain-roberts", 
+      "filterable": true,
+      "fullName": "Lain Roberts",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["COO"],
+      "locationFilter": ["Bay"],
+      "leadershipTeamFilter": ["Executive Leadership Team"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse"
+      ]
+    },
+    {
+      "id": "david-kelley", 
+      "filterable": true,
+      "fullName": "David Kelley",
+      "entityType": "individual",
+      "roleFilter": ["Founder"],
+      "role": ["Founder"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "rochael-adranly", 
+      "filterable": true,
+      "fullName": "Rochael Adranly",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["General Counsel"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "jane-fulton-suri", 
+      "filterable": true,
+      "fullName": "Jane Fulton Suri",
+      "entityType": "individual",
+      "roleFilter": ["Partner Emeritus"],
+      "role": ["Partner Emeritus"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "jason-rissman", 
+      "filterable": true,
+      "fullName": "Jason Rissman",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "OpenIDEO",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "adam-skaates", 
+      "filterable": true,
+      "fullName": "Adam Skaates",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "PlayLab",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "brendan-boyle", 
+      "filterable": true,
+      "fullName": "Brendan Boyle",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "PlayLab",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "ilya-prokopoff", 
+      "filterable": true,
+      "fullName": "Ilya Prokopoff",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "SF OS",
+      "affiliationFilter": [
+        "Pulse"
+      ],
+      "misc": [
+        "Bay Regional Managing Director"
+      ]
+    },
+    {
+      "id": "madison-mount", 
+      "filterable": true,
+      "fullName": "Madison Mount",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "SF OS",
+      "affiliationFilter": [
+        "Pulse"
+      ],
+      "misc": [
+        "Bay Regional Managing Director"
+      ]
+    },
+    {
+      "id": "jen-casimiro", 
+      "filterable": true,
+      "fullName": "Jen Casimiro",
+      "entityType": "individual",
+      "roleFilter": ["Talent Lead"],
+      "role": ["Talent Lead"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "SF OS",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "ian-groulx", 
+      "filterable": true,
+      "fullName": "Ian Groulx",
+      "entityType": "individual",
+      "roleFilter": ["Executive Design Director"],
+      "role": ["Executive Design Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Super",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "clark-scheffy", 
+      "filterable": true,
+      "fullName": "Clark Scheffy",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Super",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "jen-panasik", 
+      "filterable": true,
+      "fullName": "Jen Panasik",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Super",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "joerg-student", 
+      "filterable": true,
+      "fullName": "Joerg Student",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "Super",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "coe-leta-stafford", 
+      "filterable": true,
+      "fullName": "Coe Leta Stafford",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "The Academy - IDEO U",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "suzanne-howard", 
+      "filterable": true,
+      "fullName": "Suzanne Howard",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director & Dean of The Academy"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "The Academy - IDEO U",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "david-aycan", 
+      "filterable": true,
+      "fullName": "David Aycan",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Bay"],
+      "homeOffice": [
+        "Bay"
+      ],
+      "studio": "The Academy - Products",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "lab-palmwood", 
+      "filterable": true,
+      "fullName": "Palmwood",
+      "locationFilter": ["Labs"],
+      "entityType": "lab"
+    },
+    {
+      "id": "lab-lighthouse", 
+      "filterable": true,
+      "fullName": "Lighthouse",
+      "locationFilter": ["Labs"],
+      "entityType": "lab"
+    },
+    {
+      "id": "rebecca-hornbuckle", 
+      "filterable": true,
+      "fullName": "Rebecca Hornbuckle",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Executive Portfolio Director"],
+      "locationFilter": ["Cambridge", "Chicago", "New York"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Cambridge",
+      "affiliationFilter": [
+        "Pulse"
+      ],
+      "misc": [
+        "ChiCamNY Regional Managing Director"
+      ]
+    },
+    {
+      "id": "becky-bermont", 
+      "filterable": true,
+      "fullName": "Becky Bermont",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Cambridge"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Cambridge",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "michael-hendrix", 
+      "filterable": true,
+      "fullName": "Michael Hendrix",
+      "entityType": "individual",
+      "roleFilter": ["Global Director, Design"],
+      "role": ["Global Director, Design"],
+      "locationFilter": ["Cambridge"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Cambridge",
+      "affiliationFilter": [
+        "Pulse",
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "ari-nadler", 
+      "filterable": true,
+      "fullName": "Ari Nadler",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Cambridge"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Cambridge",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "nick-dupey", 
+      "filterable": true,
+      "fullName": "Nick Dupey",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Cambridge"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Cambridge",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "matt-weiss", 
+      "filterable": true,
+      "fullName": "Matt Weiss",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Cambridge"],
+      "homeOffice": [
+        "Cambridge"
+      ],
+      "studio": "Co-Lab",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "justin-massa", 
+      "filterable": true,
+      "fullName": "Justin Massa",
+      "entityType": "individual",
+      "roleFilter": ["Executive Portfolio Director"],
+      "role": ["Executive Portfolio Director"],
+      "locationFilter": ["Chicago"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "jennifer-riel", 
+      "filterable": true,
+      "fullName": "Jennifer Riel",
+      "entityType": "individual",
+      "locationFilter": ["Chicago"],
+      "leadershipTeamFilter": ["Chicago Leadership Team"],
+      "roleFilter": ["Executive Portfolio Director"],
+      "role": ["Executive Portfolio Director"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "catherine-corbin", 
+      "filterable": true,
+      "fullName": "Catherine Corbin",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Chicago"],
+      "leadershipTeamFilter": ["Executive Leadership Team"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "travis-lee", 
+      "filterable": true,
+      "fullName": "Travis Lee",
+      "entityType": "individual",
+      "locationFilter": ["Chicago"],
+      "leadershipTeamFilter": ["Executive Leadership Team"],
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "dwayne-edwards", 
+      "filterable": true,
+      "fullName": "Dwayne Edwards",
+      "entityType": "individual",
+      "roleFilter": ["Portfolio Director"],
+      "role": ["Portfolio Director"],
+      "locationFilter": ["Chicago"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "amie-ninh", 
+      "filterable": true,
+      "fullName": "Amie Ninh",
+      "entityType": "individual",
+      "roleFilter": ["Senior Talent Specialist"],
+      "role": ["Senior Talent Specialist"],
+      "locationFilter": ["Chicago"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "mike-stringer", 
+      "filterable": true,
+      "fullName": "Mike Stringer",
+      "entityType": "individual",
+      "roleFilter": ["Executive Design Director"],
+      "role": ["Executive Design Director"],
+      "locationFilter": ["Chicago"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Chicago",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "kayla-gilbert", 
+      "filterable": true,
+      "fullName": "Kayla Gilbert",
+      "entityType": "individual",
+      "roleFilter": ["Talent Lead"],
+      "role": ["Talent Lead"],
+      "locationFilter": ["Chicago"],
+      "homeOffice": [
+        "Chicago"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "labGroup",
+      "filterable": false,
+      "fullName": "Labs",
+      "entityType": "labsContainer"
+    },
+    {
+      "id": "ideo",
+      "filterable": false,
+      "fullName": "IDEO",
+      "entityType": "root"
+    },
+    {
+      "id": "ChiCamNY",
+      "filterable": false,
+      "fullName": "ChiCamNY",
+      "entityType": "location"
+    },
+    {
+      "id": "Europe",
+      "filterable": false,
+      "fullName": "Europe",
+      "entityType": "location"
+    },
+    {
+      "id": "lab-group-d-ford", 
+      "filterable": true,
+      "fullName": "D-Ford",
+      "entityType": "labGroup",
+      "locationFilter": ["Labs"]
+    },
+    {
+      "id": "lab-dford-detroit", 
+      "filterable": false,
+      "fullName": "D-Ford Detroit",
+      "entityType": "lab",
+      "labGroup": "lab-group-d-ford"
+    },
+    {
+      "id": "lab-dford-london", 
+      "filterable": false,
+      "fullName": "D-Ford London",
+      "entityType": "lab",
+      "labGroup": "lab-group-d-ford"
+    },
+    {
+      "id": "lab-dford-palo-alto", 
+      "filterable": false,
+      "fullName": "D-Ford Palo Alto",
+      "entityType": "lab",
+      "labGroup": "lab-group-d-ford"
+    },
+    {
+      "id": "lab-dford-shanghai", 
+      "filterable": false,
+      "fullName": "D-Ford Shanghai",
+      "entityType": "lab",
+      "labGroup": "lab-group-d-ford"
+    },
+    {
+      "id": "lab-dford-melbourne", 
+      "filterable": false,
+      "fullName": "D-Ford Melbourne",
+      "entityType": "lab",
+      "labGroup": "lab-group-d-ford"
+    },
+   
+    {
+      "id": "lab-la-victoria-lima", 
+      "filterable": true,
+      "fullName": "La Victoria Lab",
+      "locationFilter": ["Labs"],
+      "entityType": "lab"
+    },
+    {
+      "id": "alice-huang", 
+      "filterable": true,
+      "fullName": "Alice Huang",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["Interim Chief Marketing Officer"],
+      "locationFilter": ["London"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse"
+      ]
+    },
+    {
+      "id": "james-higgs", 
+      "filterable": true,
+      "fullName": "James Higgs",
+      "entityType": "individual",
+      "roleFilter": ["Executive Digital Director"],
+      "role": ["Executive Digital Director"],
+      "locationFilter": ["London"],
+      "leadershipTeamFilter": ["Europe Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "sue-sidall", 
+      "filterable": true,
+      "fullName": "Sue Sidall",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Executive Director"],
+      "locationFilter": ["London", "Munich"],
+      "leadershipTeamFilter": ["Europe Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+        "Pulse"
+      ],
+      "misc": [
+        "Europe Regional Managing Director"
+      ]
+    },
+    {
+      "id": "lorraine-clark", 
+      "filterable": true,
+      "fullName": "Lorraine Clark",
+      "entityType": "individual",
+      "locationFilter": ["London"],
+      "roleFilter": ["Experience Director"],
+      "role": ["Experience Director"],
+      "leadershipTeamFilter": ["London Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "rebecca-wint", 
+      "filterable": true,
+      "fullName": "Rebecca (Bex) Wint",
+      "entityType": "individual",
+      "roleFilter": ["Legal Counsel"],
+      "role": ["Legal Counsel"],
+      "locationFilter": ["London"],
+      "leadershipTeamFilter": ["Europe Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "emilie-colker", 
+      "filterable": true,
+      "fullName": "Emilie Colker",
+      "entityType": "individual",
+      "locationFilter": ["London"],
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "leadershipTeamFilter": ["London Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "papa-akuffo", 
+      "filterable": true,
+      "fullName": "Papa Akuffo",
+      "entityType": "individual",
+      "locationFilter": ["London"],
+      "roleFilter": ["Product Lead"],
+      "role": ["Product Lead"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+        "Helix Leadership Circle"
+      ]
+    },
+    {
+      "id": "anne-kim", 
+      "filterable": true,
+      "fullName": "Anne Kim",
+      "entityType": "individual",
+      "roleFilter": ["Senior Business Operations Director"],
+      "role": ["Senior Business Operations Director"],
+      "locationFilter": ["London"],
+      "leadershipTeamFilter": ["London Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "ben-forman", 
+      "filterable": true,
+      "fullName": "Ben Forman",
+      "entityType": "individual",
+      "roleFilter": ["Senior Design Director"],
+      "role": ["Senior Design Director"],
+      "locationFilter": ["London"],
+      "leadershipTeamFilter": ["London Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "katrin-klausecker", 
+      "filterable": true,
+      "fullName": "Katrin Klausecker",
+      "entityType": "individual",
+      "roleFilter": ["Senior Marketing Director"],
+      "role": ["Senior Marketing Director"],
+      "locationFilter": ["Munich"],
+      "leadershipTeamFilter": ["Europe Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "Munich",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "james-styles", 
+      "filterable": true,
+      "fullName": "James (Jamie) Styles",
+      "entityType": "individual",
+      "roleFilter": ["Senior Talent Director"],
+      "role": ["Senior Talent Director"],
+      "locationFilter": ["London"],
+      "leadershipTeamFilter": ["London Leadership Team"],
+      "homeOffice": [
+        "London"
+      ],
+      "studio": "London",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "chris-parkhill", 
+      "filterable": true,
+      "fullName": "Chris Parkhill",
+      "entityType": "individual",
+      "roleFilter": ["Business Operations Director"],
+      "role": ["Business Operations Director"],
+      "locationFilter": ["Munich"],
+      "leadershipTeamFilter": ["Munich Leadership Team"],
+      "homeOffice": [
+        "Munich"
+      ],
+      "studio": "Munich",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "franz-blach", 
+      "filterable": true,
+      "fullName": "Franz Blach",
+      "entityType": "individual",
+      "roleFilter": ["Executive Design Director"],
+      "role": ["Executive Design Director"],
+      "locationFilter": ["Munich"],
+      "leadershipTeamFilter": ["Munich Leadership Team"],
+      "homeOffice": [
+        "Munich"
+      ],
+      "studio": "Munich",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "thomas-junk", 
+      "filterable": true,
+      "fullName": "Thomas Junk",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Munich"],
+      "leadershipTeamFilter": ["Munich Leadership Team"],
+      "homeOffice": [
+        "Munich"
+      ],
+      "studio": "Munich",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "alexandra-fischer", 
+      "filterable": true,
+      "fullName": "Alexandra Fischer",
+      "entityType": "individual",
+      "roleFilter": ["Talent Director"],
+      "role": ["Talent Director"],
+      "locationFilter": ["Munich"],
+      "leadershipTeamFilter": ["Munich Leadership Team"],
+      "homeOffice": [
+        "Munich"
+      ],
+      "studio": "Munich",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "duane-bray", 
+      "filterable": true,
+      "fullName": "Duane Bray",
+      "entityType": "individual",
+      "roleFilter": ["Global Talent Director"],
+      "role": ["Global Talent Director"],
+      "locationFilter": ["New York"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Pulse"
+      ]
+    },
+    {
+      "id": "tom-eich", 
+      "filterable": true,
+      "fullName": "Tom Eich",
+      "entityType": "individual",
+      "roleFilter": ["Global Technology Director"],
+      "role": ["Global Technology Director"],
+      "locationFilter": ["New York"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+
+      ]
+    },
+    {
+      "id": "paul-bennett", 
+      "filterable": true,
+      "fullName": "Paul Bennett",
+      "entityType": "individual",
+      "roleFilter": ["Chief Officer"],
+      "role": ["Chief Creative Officer"],
+      "locationFilter": ["New York"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "Global",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "leif-huff", 
+      "filterable": true,
+      "fullName": "Leif Huff",
+      "entityType": "individual",
+      "roleFilter": ["Executive Design Director"],
+      "role": ["Executive Design Director"],
+      "locationFilter": ["New York"],
+      "leadershipTeamFilter": ["New York Leadership Team"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "New York",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "greg-perez", 
+      "filterable": true,
+      "fullName": "Greg Perez",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["New York"],
+      "leadershipTeamFilter": ["New York Leadership Team"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "New York",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "sahrr-malik", 
+      "filterable": true,
+      "fullName": "Sahrr Malik",
+      "entityType": "individual",
+      "roleFilter": ["Senior Business Operations Lead"],
+      "role": ["Senior Business Operations Lead"],
+      "leadershipTeamFilter": ["New York Leadership Team"],
+      "locationFilter": ["New York"],
+      "homeOffice": [
+        "New York"
+      ],
+      "studio": "New York",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "mitch-sinclair", 
+      "filterable": true,
+      "fullName": "Mitch Sinclair",
+      "entityType": "individual",
+      "roleFilter": ["Executive Design Director"],
+      "role": ["Executive Design Director"],
+      "locationFilter": ["Palmwood"],
+      "homeOffice": [
+        "Palmwood"
+      ],
+      "studio": "Palmwood",
+      "affiliationFilter": [
+        "Heartbeat"
+      ]
+    },
+    {
+      "id": "lab-mooncreativelab-tokyo", 
+      "filterable": false,
+      "fullName": "Moon Creative Lab Tokyo",
+      "entityType": "lab",
+      "labGroup": "lab-group-mooncreativelab"
+    },
+    {
+      "id": "lab-mooncreativelab-palo-alto", 
+      "filterable": false,
+      "fullName": "Moon Creative Lab Palo Alto",
+      "entityType": "lab",
+      "labGroup": "lab-group-mooncreativelab"
+    },
+    {
+      "id": "lab-group-mooncreativelab", 
+      "filterable": true,
+      "fullName": "Moon Creative Lab",
+      "locationFilter": ["Lab"],
+      "entityType": "labGroup"
+    },
+    {
+      "id": "tony-wong", 
+      "filterable": true,
+      "fullName": "Tony Wong",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Shanghai"],
+      "leadershipTeamFilter": ["Shanghai Leadership Team"],
+      "homeOffice": [
+        "Shanghai"
+      ],
+      "studio": "Shanghai",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "arlin-tao", 
+      "filterable": true,
+      "fullName": "Arlin Tao",
+      "entityType": "individual",
+      "roleFilter": ["Senior Business Operations Lead"],
+      "role": ["Senior Business Operations Lead"],
+      "locationFilter": ["Shanghai"],
+      "leadershipTeamFilter": ["Shanghai Leadership Team"],
+      "homeOffice": [
+        "Shanghai"
+      ],
+      "studio": "Shanghai",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "tom-kelley", 
+      "filterable": true,
+      "fullName": "Tom Kelley",
+      "entityType": "individual",
+      "roleFilter": ["Founder & Chairman"],
+      "role": ["Founder & Chairman"],
+      "locationFilter": ["Tokyo"],
+      "homeOffice": [
+        "Tokyo"
+      ],
+      "studio": "D4V",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "makoto-takano", 
+      "filterable": true,
+      "fullName": "Makato Takano",
+      "entityType": "individual",
+      "roleFilter": ["Founder & CEO"],
+      "role": ["Founder & CEO"],
+      "locationFilter": ["Tokyo"],
+      "homeOffice": [
+        "Tokyo"
+      ],
+      "studio": "D4V",
+      "affiliationFilter": [
+      ]
+    },
+    {
+      "id": "davide-agnelli", 
+      "filterable": true,
+      "fullName": "Davide Agnelli",
+      "entityType": "individual",
+      "roleFilter": ["Managing Director"],
+      "role": ["Managing Director"],
+      "locationFilter": ["Tokyo"],
+      "homeOffice": [
+        "Tokyo"
+      ],
+      "studio": "Tokyo",
+      "affiliationFilter": [
+      ]
+    }
+  ],
+  "links": [
+    
+    
+  ]
+}
