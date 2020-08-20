@@ -130,7 +130,7 @@ function createLinks({ nodes, links }) {
   }
 }
 
-function initializeGraph(data, el) {
+function initializeGraph(data, el,  handleNodeClick) {
 
   graph = ForceGraph3D({
     rendererConfig: {
@@ -161,12 +161,9 @@ function initializeGraph(data, el) {
       if (node.entityType === 'individual') {
         console.log(node.image)
         return `
-          <div class="pa2 node-label flex flex-row flex-wrap">
+          <div class="pa3 node-label flex flex-row flex-wrap">
             <main class="flex flex-column">
-              <h1 class="f5 fw7 mb1">${node.fullName}</h1>
-              <h2 class="f5 fw4 mb1">${node.role.join(',')}</h2>
-              <h3 class="f6 fw4 mb1">Location: ${node.homeOffice}</h3>
-              <h4 class="f6 fw4">Studio: ${node.studio}</h4>
+              <h1 class="f5 ma0 fw7">${node.fullName}</h1>
             </main>
           </div>
         `
@@ -217,8 +214,11 @@ function initializeGraph(data, el) {
       graph.cameraPosition(
         { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
         node, // lookAt ({ x, y, z })
-        3000  // ms transition duration
+        2000  // ms transition duration
       );
+
+      handleNodeClick(node)
+
     });
 
 }
@@ -226,6 +226,7 @@ function initializeGraph(data, el) {
 function App() {
 
   const [data, setData] = useState(source);
+  const [sceneActive, setSceneActive] = useState(true);
   const [activeFilter, setActiveFilter] = useState(null);
   const [minimized, setMinimized] = useState(false)
   const [gridOpen, setGridOpen] = useState(false)
@@ -268,6 +269,7 @@ function App() {
     setData(filteredData)
     window.scrollTo(0, 0);
     setGridOpen(true);
+    setSceneActive(false);
   }
   
   const filterByRole = applyFilter.bind(null, 'roleFilter');
@@ -276,20 +278,27 @@ function App() {
   const filterByAffiliation = applyFilter.bind(null, 'affiliationFilter');
 
   useEffect(() => {
-    initializeGraph(createLinks(data), sceneEl.current)
+    initializeGraph(
+      createLinks(data),
+      sceneEl.current,
+      (node) => {
+        console.log(node, ' peek a boo')
+        if (node.filterable) {
+          setData({nodes: [node], links: []})
+          setGridOpen(true)
+          setSceneActive(true)
+        }
+      }
+    
+    )
   }, [])
 
   useEffect(() => {
-    
     function handleResize() {
-      console.log('resize')
       graph.width(window.innerWidth)
       graph.height(window.innerHeight)
     }
-      
-    
     window.addEventListener('resize', handleResize)
-
     return () => {
       window.removeEventListener('resize', handleResize)
     }
@@ -301,11 +310,11 @@ function App() {
       <div 
         id="scene"
         style={{
-          zIndex: gridOpen ? -1 : 1
+          zIndex: sceneActive ? 1 : -1
         }} 
         ref={sceneEl}>
-
       </div>
+
       <Navigation
         minimized={minimized}
         toggleMinimize={() => { setMinimized(!minimized) }}
@@ -325,7 +334,12 @@ function App() {
 
     { gridOpen &&
       <CardGrid
-        handleCloseClick={() => { resetFilter(); setGridOpen(false); }}
+        handleCloseClick={() => { 
+          console.log('close click')
+          resetFilter(); 
+          setGridOpen(false); 
+          setSceneActive(true); 
+        }}
         nodes={data.nodes.filter(({filterable}) => filterable)}
       />
     }

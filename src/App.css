@@ -156,6 +156,7 @@ body {
   max-height: calc(100vh - 60px);
   margin-top: 20px;
   margin-left: 390px;
+  z-index: 10;
   
 }
 
