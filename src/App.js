@@ -228,6 +228,7 @@ function App() {
   const [data, setData] = useState(source);
   const [activeFilter, setActiveFilter] = useState(null);
   const [minimized, setMinimized] = useState(false)
+  const [gridOpen, setGridOpen] = useState(false)
   const sceneEl = useRef(null)
 
   function resetFilter() {
@@ -265,7 +266,8 @@ function App() {
     };
     console.log(filteredFilterableNodes)
     setData(filteredData)
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    setGridOpen(true);
   }
   
   const filterByRole = applyFilter.bind(null, 'roleFilter');
@@ -283,7 +285,7 @@ function App() {
       <div 
         id="scene"
         style={{
-          zIndex: minimized ? 1 : -1
+          zIndex: gridOpen ? -1 : 1
         }} 
         ref={sceneEl}>
 
@@ -305,9 +307,9 @@ function App() {
         }}
       />
 
-    { !minimized &&
+    { gridOpen &&
       <CardGrid
-        
+        handleCloseClick={() => { resetFilter(); setGridOpen(false); }}
         nodes={data.nodes.filter(({filterable}) => filterable)}
       />
     }
