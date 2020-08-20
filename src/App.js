@@ -158,11 +158,26 @@ function initializeGraph(data, el) {
       return node.val;
     })
     .nodeLabel(function (node) {
-      return `
-        <div class="f2 tracked pa2 node-label">
-          ${node.fullName}
-        </div>
-      `
+      if (node.entityType === 'individual') {
+        console.log(node.image)
+        return `
+          <div class="pa2 node-label flex flex-row flex-wrap">
+            <main class="flex flex-column">
+              <h1 class="f5 fw7 mb1">${node.fullName}</h1>
+              <h2 class="f5 fw4 mb1">${node.role.join(',')}</h2>
+              <h3 class="f6 fw4 mb1">${node.homeOffice}</h3>
+              <h4 class="f6 fw4">Studio: ${node.studio}</h4>
+            </main>
+          </div>
+        `
+      } else {
+        return `
+          <div class="f5 tracked pa2 node-label">
+            ${node.fullName}
+          </div>
+        `
+      }
+      
     })
     .nodeThreeObject(function (node) {
       let geometry = null
@@ -172,13 +187,19 @@ function initializeGraph(data, el) {
         const [role] = node.role
       
 
-        geometry = new THREE.IcosahedronBufferGeometry(2, 2);
+        geometry = new THREE.IcosahedronBufferGeometry(3, 2);
         
         material = new THREE.MeshBasicMaterial({ color: color, wireframe: true });
 
         return new THREE.Mesh(geometry, material)
+      } else if (node.entityType === 'root') {
+        geometry = new THREE.IcosahedronBufferGeometry(3, 4);
+        
+        material = new THREE.MeshBasicMaterial({ color: color, wireframe: true });
+        return new THREE.Mesh(geometry, material)
+
       } else {
-        geometry = new THREE.IcosahedronBufferGeometry(5, 3);
+        geometry = new THREE.IcosahedronBufferGeometry(3, 0);
         material = new THREE.MeshBasicMaterial({ color: 0x000000, wireframe: true });
         return new THREE.Mesh(geometry, material)
 

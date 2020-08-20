@@ -130,6 +130,24 @@ body {
 .node-label {
   color: #ffc598;
   background: black;
+  max-width: 350px;
+  width: auto;
+  height: auto;
+}
+.node-label header {
+  height: 100%;
+  width: 50px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.node-label header img.label-image {
+  width: 100%;
+  border: 50px solid blue;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
 }
 .card header {
   height: 250px;
