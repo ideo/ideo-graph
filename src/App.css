@@ -57,12 +57,28 @@ body {
 
 .filter-container > footer {
   border-top: 2px solid black;
-
+  top: 0;
+  left: 0;
 }
 
 .filter-container > header {
   border-bottom: 2px solid black;
   cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-grid > header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+}
+
+.card-grid > main {
+  height: calc(vh - 60px);
+  margin-top: 55px;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 .filter-container > header.minimized {
@@ -71,7 +87,8 @@ body {
 }
 
 
-.filter-container > main {
+.filter-container > main,
+.card-grid > main {
   /* max-height: 400px; */
   overflow-y: scroll;
   /* Hide scrollbar for Chrome, Safari and Opera */  
@@ -84,6 +101,10 @@ body {
   cursor: pointer;
 }
 
+.close-icon {
+  transform: rotateZ(45deg);
+}
+
 .filter-container li.active {
   /* font-style: italic; */
   padding: 0.5em;
@@ -94,7 +115,8 @@ body {
   cursor: pointer;
 }
 
-.filter-container > main::-webkit-scrollbar {
+.filter-container > main::-webkit-scrollbar,
+.card-grid > main::-webkit-scrollbar {
   display: none;
 }
 
@@ -114,6 +136,7 @@ body {
 .card-grid {
   width: calc(100% - 390px);
   max-width: 60vw;
+  max-height: calc(100vh - 60px);
   margin-top: 20px;
   margin-left: 390px;
   
