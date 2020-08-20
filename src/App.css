@@ -31,8 +31,9 @@ html, body {
   height: 100%;
   font-family: Gotham, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;
   font-size: 16px;
-  background: radial-gradient(241.9% 82.66% at 0% 0%, #fed4c6 0%, rgba(255, 182, 159, 0) 100%), #fff098;
+  /* background: radial-gradient(241.9% 82.66% at 0% 0%, #fed4c6 0%, rgba(255, 182, 159, 0) 100%), #fff098;
   background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 canvas {
@@ -110,6 +111,7 @@ body {
   max-width: 60vw;
   margin-top: 20px;
   margin-left: 390px;
+  
 }
 
 .card {
@@ -118,13 +120,17 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
   border: 2px solid black;
+  background: radial-gradient(241.9% 82.66% at 0% 0%, #fed4c6 0%, rgba(255, 182, 159, 0) 100%), #ffc598;
   box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
 }
 
 .card:hover {
   
 }
-
+.node-label {
+  color: #ffc598;
+  background: black;
+}
 .card header {
   height: 250px;
   border-bottom: 2px solid black;
@@ -141,11 +147,21 @@ body {
   height: 100%;
   object-fit: cover;
   mix-blend-mode: multiply;
+
   /* filter: grayscale(100%); */
 }
 
 .card .location {
   border-top: 2px solid black;
+}
+
+#scene {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .card footer {
