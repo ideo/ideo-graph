@@ -26,15 +26,18 @@
 }
 
 html, body {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
   height: 100%;
   font-family: Gotham, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;
   font-size: 16px;
+  background: radial-gradient(241.9% 82.66% at 0% 0%, #fed4c6 0%, rgba(255, 182, 159, 0) 100%), #fff098;
+  background-repeat: no-repeat;
 }
 
 canvas {
-  background: radial-gradient(241.9% 82.66% at 0% 0%, #ffc0ab 0%, rgba(255, 182, 159, 0) 100%), #fffdb6;
+  background: radial-gradient(241.9% 82.66% at 0% 0%, #dc876b 0%, rgba(255, 182, 159, 0) 100%), #fff098;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -43,9 +46,8 @@ body {
 
 .filter-container {
   position: fixed;
-  width: auto;
+  width: 350px;
   height: auto;
-  max-width: 400px;
   top: 20px;
   left: 20px;
   z-index: 10;
@@ -54,6 +56,7 @@ body {
 
 .filter-container > footer {
   border-top: 2px solid black;
+
 }
 
 .filter-container > header {
@@ -63,12 +66,22 @@ body {
 
 
 .filter-container > main {
-  max-height: 400px;
+  /* max-height: 400px; */
   overflow-y: scroll;
   /* Hide scrollbar for Chrome, Safari and Opera */  
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+.filter-container li {
+  cursor: pointer;
+}
+
+.filter-container li.active {
+  font-style: italic;
+  padding: 0.5em;
+  border-left:3px solid black;
 }
 
 .filters-clear {
@@ -86,14 +99,63 @@ body {
 
 }
 
-.filter-role.active {
+/* .filter-role.active {
   background: black;
   color: white;
   border-color: black;
-}
+} */
 
 .card-grid {
-  position: absolute;
-  top: 20px;
-  left: 440px;
+  width: calc(100% - 390px);
+  max-width: 60vw;
+  margin-top: 20px;
+  margin-left: 390px;
 }
+
+.card {
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}
+
+.card:hover {
+  
+}
+
+.card header {
+  height: 250px;
+  border-bottom: 2px solid black;
+  
+}
+
+.card svg {
+  width: 20px;
+  height: 20px;
+}
+
+.card header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  /* filter: grayscale(100%); */
+}
+
+.card .location {
+  border-top: 2px solid black;
+}
+
+.card footer {
+  /* border-top: 3px solid black; */
+}
+
+@media screen and (min-width: 30em) {
+}
+
+
+@media screen and (min-width: 60em) {
+}
+

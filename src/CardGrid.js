@@ -1,12 +1,12 @@
 import React, { useState, useCallback } from 'react';
 import Card from './Card'; 
 
-function CardGrid({ individuals }) {
+function CardGrid({ nodes }) {
   return (
-    <section className="card-grid">
+    <section className="card-grid flex flex-row  flex-wrap">
       {
-        individuals.map((individual, idx) => {
-          return (<Card key={idx} details={individual} />)
+        nodes.map((node, idx) => {
+          return (<Card key={idx} details={node} />)
         })
       }
     </section>

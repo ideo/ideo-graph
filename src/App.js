@@ -49,7 +49,8 @@ function App() {
   }
 
   function applyFilter(key, value) {
-    setActiveFilter(key);
+    resetFilter();
+    setActiveFilter(value);
     const nodes = [...source.nodes];
     const links = [...source.links];
     const filterableNodes = [];
@@ -73,6 +74,7 @@ function App() {
     };
     console.log(filteredFilterableNodes)
     setData(filteredData)
+    window.scrollTo(0, 0)
   }
   
   const filterByRole = applyFilter.bind(null, 'roleFilter');
@@ -85,6 +87,7 @@ function App() {
     <div className="app">
 
       <Navigation
+        activeFilter={activeFilter}
         filterByRole={filterByRole}
         filterByLocation={filterByLocation}
         filterByLeadershipTeam={filterByLeadershipTeam}
@@ -98,8 +101,8 @@ function App() {
         }}
       />
 
-    <CardGrid 
-      individuals={data.nodes.filter(point => point.entityType === 'individual')}
+    <CardGrid
+      nodes={data.nodes.filter(({filterable}) => filterable)}
     />
 
     </div>

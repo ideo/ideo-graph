@@ -5,7 +5,7 @@ function Navigation({
   filterByLocation,
   filterByLeadershipTeam,
   filterByAffiliation,
-  resetFilter,
+  activeFilter,
   filterValues: {
     roleFilterValues,
     locationFilterValues,
@@ -13,24 +13,23 @@ function Navigation({
     affiliationFilterValues
   }
 }) {
+  console.log('------ ', activeFilter)
   return (
     <div className="filter-container">
-      <header className="pv0 ph2 flex items-center flex-row filters-header relative">
+      <header className="pv2 ph2 flex items-center flex-row filters-header relative">
         <div className="absolute fw7 f8 toggle-icon">
           -
-      </div>
-        <h1 className="f6 fw7 ml3">IDEO Morphology</h1>
+        </div>
+        <h1 className="f4 fw7 ml3">IDEO</h1>
       </header>
 
       <main className="pv2 ph3 flex flex-column filters-content">
 
         <header className="flex flex-row items-center justify-start">
-          <h3 className="f7 fw7 ml2 mb3 mt3 mr2">
+          <h3 className="f5 fw7 mb2 mt2 mr2">
             Filter By Role
-        </h3>
-          <div className="f7 fw3 filters-clear filters-clear-roles">
-            [clear]
-        </div>
+          </h3>
+          
         </header>
 
         <ul className="filters filters-role flex flex-column mb2">
@@ -38,19 +37,17 @@ function Navigation({
             <li 
               key={idx}
               onClick={filterByRole.bind(null, filter)}
-              className="filter filter-role flex flex-column">
+              className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
               {filter}
             </li>
           ))}
         </ul>
 
         <header className="flex flex-row items-center justify-start">
-          <h3 className="f7 fw7 ml2 mb3 mt3 mr2">
+          <h3 className="f5 fw7 mb2 mt4 mr2">
             Filter By Location
         </h3>
-          <div className="f7 fw3 filters-clear filters-clear-roles">
-            [clear]
-        </div>
+          
         </header>
 
         <ul className="filters filters-location flex flex-column">
@@ -58,19 +55,17 @@ function Navigation({
           <li 
             key={idx}
             onClick={filterByLocation.bind(null, filter)}
-            className="filter filter-rol flex flex-column">
+            className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
             {filter}
           </li>
         ))}
         </ul>
 
         <header className="flex flex-row items-center justify-start">
-          <h3 className="f7 fw7 ml2 mb3 mt3 mr2">
+          <h3 className="f5 fw7 mb2 mt4 mr2">
             Filter By Leadership Teams
         </h3>
-          <div className="f7 fw3 filters-clear filters-clear-roles">
-            [clear]
-        </div>
+          
         </header>
 
         <ul className="filters filters-leadership-teams flex flex-column">
@@ -78,19 +73,17 @@ function Navigation({
             <li 
               key={idx}
               onClick={filterByLeadershipTeam.bind(null, filter)}
-              className="filter filter-rol flex flex-column">
+              className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
               {filter}
             </li>
           ))}
         </ul>
 
         <header className="flex flex-row items-center justify-start">
-          <h3 className="f7 fw7 ml2 mb3 mt3 mr2">
+          <h3 className="f5 fw7 mb2 mt4 mr2">
             Filter By Groups
         </h3>
-          <div className="f7 fw3 filters-clear filters-clear-roles">
-            [clear]
-        </div>
+          
         </header>
 
         <ul className="filters filters-affiliations flex flex-column">
@@ -98,7 +91,7 @@ function Navigation({
           <li 
             key={idx}
             onClick={filterByAffiliation.bind(null, filter)}
-            className="filter filter-rol flex flex-column">
+            className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
             {filter}
           </li>
         ))}
