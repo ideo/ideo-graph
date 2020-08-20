@@ -17,11 +17,11 @@ function Navigation({
 }) {
   return (
     <div className="filter-container">
-      <header className="pv2 ph2 flex items-center flex-row filters-header relative" onClick={toggleMinimize}>
-        <div className="absolute fw7 f8 toggle-icon">
-          -
+      <header className={`pv2 ph2 flex items-center flex-row filters-header relative ${minimized ? 'minimized' : 'expanded'}`} onClick={toggleMinimize}>
+        <div className="absolute fw7 f2 toggle-icon">
+          {minimized ? '+' : '–' }
         </div>
-        <h1 className="f4 fw7 ml3">IDEO</h1>
+        <h1 className="f4 fw7 ml4">IDEO</h1>
       </header>
 
       {!minimized &&

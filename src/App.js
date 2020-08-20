@@ -165,7 +165,7 @@ function initializeGraph(data, el) {
             <main class="flex flex-column">
               <h1 class="f5 fw7 mb1">${node.fullName}</h1>
               <h2 class="f5 fw4 mb1">${node.role.join(',')}</h2>
-              <h3 class="f6 fw4 mb1">${node.homeOffice}</h3>
+              <h3 class="f6 fw4 mb1">Location: ${node.homeOffice}</h3>
               <h4 class="f6 fw4">Studio: ${node.studio}</h4>
             </main>
           </div>
@@ -193,21 +193,21 @@ function initializeGraph(data, el) {
 
         return new THREE.Mesh(geometry, material)
       } else if (node.entityType === 'root') {
-        geometry = new THREE.IcosahedronBufferGeometry(3, 4);
+        geometry = new THREE.IcosahedronBufferGeometry(3, 0);
         
         material = new THREE.MeshBasicMaterial({ color: color, wireframe: true });
         return new THREE.Mesh(geometry, material)
 
       } else {
-        geometry = new THREE.IcosahedronBufferGeometry(3, 0);
+        geometry = new THREE.IcosahedronBufferGeometry(2, 0);
         material = new THREE.MeshBasicMaterial({ color: 0x000000, wireframe: true });
         return new THREE.Mesh(geometry, material)
 
       }
     })
-    .linkAutoColorBy('id')
     .linkOpacity(0.8)
     .linkWidth(0.2)
+    .zoomToFit()
     .onNodeHover(node => el.style.cursor = node ? 'pointer' : null)
     .onNodeClick(node => {
       // Aim at node from outside it
@@ -221,20 +221,6 @@ function initializeGraph(data, el) {
       );
     });
 
-
-  // const renderer = graph.renderer()
-  // const scene = graph.scene()
-  // const camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 100 );
-  // camera.position.set( 5, 2, 8 );
-  // const controls = new OrbitControls( camera, renderer.domElement );
-  // controls.target.set( 0, 0.5, 0 );
-  // controls.update();
-  // controls.enablePan = false;
-  // controls.enableDamping = true;
-
-  // renderer.render(scene, camera);
-
-  // return graph
 }
 
 function App() {
@@ -248,6 +234,10 @@ function App() {
     setData({...source})
     setActiveFilter(null)
   }
+
+  useEffect(() => {
+    // initializeGraph(createLinks(data), sceneEl.current)
+  }, [data])
 
   function applyFilter(key, value) {
     resetFilter();

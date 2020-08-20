@@ -65,6 +65,11 @@ body {
   cursor: pointer;
 }
 
+.filter-container > header.minimized {
+  background: black;
+  color: rgba(255, 182, 159, 1);
+}
+
 
 .filter-container > main {
   /* max-height: 400px; */
