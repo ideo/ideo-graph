@@ -278,6 +278,22 @@ function App() {
   useEffect(() => {
     initializeGraph(createLinks(data), sceneEl.current)
   }, [])
+
+  useEffect(() => {
+    
+    function handleResize() {
+      console.log('resize')
+      graph.width(window.innerWidth)
+      graph.height(window.innerHeight)
+    }
+      
+    
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  })
   
   return (
     <div className="app">

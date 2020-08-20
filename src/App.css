@@ -52,6 +52,7 @@ body {
   top: 20px;
   left: 20px;
   z-index: 10;
+  max-height: calc(100vh - 60px);
   border: 5px solid black;
 }
 
@@ -69,14 +70,21 @@ body {
 }
 
 .card-grid > header {
-  padding-top: 27px;
-  padding-bottom: 27px;
+  box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+  cursor: pointer;
+  padding: 20px;
+  /* padding-top: 27px; */
+  /* padding-bottom: 27px; */
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  background: rgba(255, 182, 159, 1);
 
 }
 
 .card-grid > main {
   height: calc(vh - 60px);
-  margin-top: 55px;
+  margin-top: 64px;
   width: 100%;
   overflow-y: scroll;
 }
@@ -101,8 +109,17 @@ body {
   cursor: pointer;
 }
 
+
+
 .close-icon {
   transform: rotateZ(45deg);
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 9px;
+
+  /* border-radius: 100%; */
+  
 }
 
 .filter-container li.active {

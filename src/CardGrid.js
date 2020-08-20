@@ -9,7 +9,7 @@ function CardGrid({ nodes, handleCloseClick }) {
           +
         </div>
       </header>
-      <main class="flex flex-row flex-wrap">
+      <main className="flex flex-row flex-wrap">
         {
           nodes.map((node, idx) => {
             return (<Card key={idx} details={node} />)
