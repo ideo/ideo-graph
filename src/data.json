@@ -787,6 +787,10 @@
         "id":"lab-palmwood",
         "filterable":true,
         "fullName":"Palmwood",
+        "description": "Palmwood is a creative organization founded by the UAE Government and IDEO. Building on a deep-rooted tradition of collaboration, Palmwood works with partners dedicated to curiosity, creativity and co-creation. We aim to improve lives in the UAE and beyond. We are a design-led movement creating new solutions for governments and organizations, developing creative capabilities in the people of the UAE, and opening up new conversations about what is possible through design.",
+        "labLocations": [
+          "Dubai, UAE"
+        ],
         "locationFilter":[
            "Labs"
         ],
@@ -796,6 +800,10 @@
         "id":"lab-lighthouse",
         "filterable":true,
         "fullName":"Lighthouse",
+        "description": "Orbia Lighthouse develops scalable solutions for systemic global challenges— from improving water access, to building sustainable infrastructure, to rethinking agriculture systems. It’s no secret that massive urbanization, technology, and climate change are reshaping our planet every day. Orbia Lighthouse builds and launches new ventures that aim to solve global systems challenges with human-centered solutions. We are a joint venture between IDEO and Orbia, leveraging IDEO’s depth in human-centered design and Orbia’s expertise in engineering, materials, and manufacturing to tackle today’s—and tomorrow’s—toughest challenges.",
+        "labLocations": [
+          "Bay"
+        ],
         "locationFilter":[
            "Labs"
         ],
@@ -1167,6 +1175,10 @@
         "filterable":true,
         "fullName":"D-Ford",
         "entityType":"labGroup",
+        "description": "D-Ford is a global human centered design group within Ford, created to drive human progress through empathy, creativity and design. D-Ford has five global locations (Detroit, Palo Alto, London, Shanghai and Melbourne) where designers are working with product development and strategy teams across Ford to build empathy for current and future customers and design winning products and services that will help the company become truly customer-centric.",
+        "labLocations": [
+          "Detroit", "London", "Palo Alto", "Shanghai", "Melbourne"
+        ],
         "locationFilter":[
            "Labs"
         ]
@@ -1209,7 +1221,11 @@
      {
         "id":"lab-la-victoria-lima",
         "filterable":true,
+        "description": "La Victoria Lab is the Innovation Lab of Intercorp. Launched in 2014, with the purpose of improving the lives of the Peruvian middle class families through human-centered design, their focus on on creating new ventures from scratch, transforming the ecosystem of Intercorp companies, inspiring their business leaders, and exploring the recently possible. The Lab's ventures range from mindset-changing initiatives, such as curating Peru's largest innovation festival, to deeply transformative endeavours targeted at reinventing the core value propositions of Intercorp's businesses.",
         "fullName":"La Victoria Lab",
+        "labLocations": [
+          "Lima, Peru"
+        ],
         "locationFilter":[
            "Labs"
         ],
@@ -1236,7 +1252,7 @@
         "affiliationFilter":[
            "Pulse"
         ],
-        "image":"images/Alice_Huang.jpg"
+        "image":""
      },
      {
         "id":"james-higgs",
@@ -1762,7 +1778,8 @@
            "Executive Design Director"
         ],
         "locationFilter":[
-           "Palmwood"
+           "Palmwood",
+           "Labs"
         ],
         "homeOffice":[
            "Palmwood"
@@ -1791,6 +1808,10 @@
         "id":"lab-group-mooncreativelab",
         "filterable":true,
         "fullName":"Moon Creative Lab",
+        "description": "Moon Creative Lab is a design-led innovation hub that powers the creation of new businesses for Mitsui & Co, one of Japan’s largest organizations. With a long running history, Mitsui & Co. is in pursuit to become a more future-forward, entrepreneurial company. Through Moon, their mission is to help unlock the creativity of its over 45,000 strong global workforce and build innovative businesses that will have an exponential impact on Mitsui & Co. and the rest of the world.",
+        "labLocations": [
+          "Palo Alto", "Tokyo"
+        ],
         "locationFilter":[
            "Lab"
         ],

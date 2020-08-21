@@ -36,7 +36,7 @@ function Navigation({
             </header>
 
             <ul className="filters filters-role flex flex-column mb2">
-              {roleFilterValues.map((filter, idx) => (
+              {roleFilterValues.sort().map((filter, idx) => (
                 <li
                   key={idx}
                   onClick={filterByRole.bind(null, filter)}
@@ -54,7 +54,7 @@ function Navigation({
             </header>
 
             <ul className="filters filters-location flex flex-column">
-              {locationFilterValues.map((filter, idx) => (
+              {locationFilterValues.sort().map((filter, idx) => (
                 <li
                   key={idx}
                   onClick={filterByLocation.bind(null, filter)}
@@ -72,7 +72,7 @@ function Navigation({
             </header>
 
             <ul className="filters filters-leadership-teams flex flex-column">
-              {leadershipTeamFilterValues.map((filter, idx) => (
+              {leadershipTeamFilterValues.sort().map((filter, idx) => (
                 <li
                   key={idx}
                   onClick={filterByLeadershipTeam.bind(null, filter)}
@@ -90,7 +90,7 @@ function Navigation({
             </header>
 
             <ul className="filters filters-affiliations flex flex-column">
-              {affiliationFilterValues.map((filter, idx) => (
+              {affiliationFilterValues.sort().map((filter, idx) => (
                 <li
                   key={idx}
                   onClick={filterByAffiliation.bind(null, filter)}
