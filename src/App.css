@@ -26,8 +26,9 @@
 }
 
 .scene-nav-info {
-  color: black;
+  color: black!important;
 }
+
 html, body {
   overflow: hidden;
   width: 100%;
