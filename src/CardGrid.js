@@ -3,7 +3,7 @@ import Card from './Card';
 
 function CardGrid({ nodes, handleCloseClick }) {
   return (
-    <section className="card-grid relative flex flex-column">
+    <section className="card-grid pb2 relative flex flex-column">
       <header className={`ph2 fixed flex items-center flex-row filters-header relative ${false ? 'minimized' : 'expanded'}`}>
         <div className="absolute fw7 f2 close-icon" onClick={handleCloseClick}>
           +

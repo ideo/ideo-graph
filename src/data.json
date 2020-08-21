@@ -724,9 +724,9 @@
         "image":"images/Michael_Hendrix.jpg"
      },
      {
-        "id":"ari-nadler",
+        "id":"ari-adler",
         "filterable":true,
-        "fullName":"Ari Nadler",
+        "fullName":"Ari Adler",
         "entityType":"individual",
         "roleFilter":[
            "Managing Director"
