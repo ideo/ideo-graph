@@ -25,6 +25,9 @@
   font-display: swap;
 }
 
+.scene-nav-info {
+  color: black;
+}
 html, body {
   overflow: hidden;
   width: 100%;

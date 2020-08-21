@@ -10,6 +10,7 @@ function Card({ details: {
   labLocations,
   studio,
   misc,
+  leadershipTeamFilter,
   affiliationFilter
 } }) {
   return (
@@ -27,6 +28,9 @@ function Card({ details: {
         <h2 className="ph2 fw4 f5 tracked-tight">
           {role && role[0]}
         </h2>
+        <h3 className="ph2 fw4 f6 tracked-tight">
+          {leadershipTeamFilter && leadershipTeamFilter.join(', ')}
+        </h3>
       </main>
       <footer className="flex flex-column w-100">
         {(misc && misc.length > 0) &&
