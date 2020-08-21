@@ -26,7 +26,8 @@ const locationFilterValues = [
   'Tokyo',
   'London',
   'Munich',
-  'Labs'
+  'Labs',
+  'Global'
 ];
 const leadershipTeamFilterValues = [
   'Executive Leadership Team',
@@ -52,7 +53,11 @@ function createLinks({ nodes, links }) {
     id: location,
     fullName: location,
     entityType: 'location'
-  }))
+  })).filter(({ id, fullName }) => {
+    console.log(id, fullName )
+    return !['lab-palmwood', 'Labs'].includes(fullName);
+    // return true;
+  })
 
   locationNodes.push({
     id: 'Asia',
@@ -60,7 +65,7 @@ function createLinks({ nodes, links }) {
     entityType: 'location'
   })
 
-  const newLinks = [...links]
+  let newLinks = [...links]
   const newNodes = [...nodes, ...locationNodes]
 
   newNodes.forEach(node => {
@@ -73,6 +78,11 @@ function createLinks({ nodes, links }) {
           val: 2
         })
       })
+      //remove link between Mitch and Labs
+      newLinks = newLinks.filter(({source, target}) => {
+        return !(source === 'mitch-sinclair' && target === 'Labs')
+      })
+
       node.val = BASE_VAL * 1
 
     } else if (['lab'].includes(node.entityType) && node.labGroup && node.labGroup.length > 0) {
@@ -115,9 +125,10 @@ function createLinks({ nodes, links }) {
   newLinks.push({ source: 'Shanghai', target: 'Asia', val: 2 })
   newLinks.push({ source: 'Bay', target: 'ideo', val: 2 })
   newLinks.push({ source: 'labGroup', target: 'ideo', val: 2 })
+  newLinks.push({ source: 'Global', target: 'ideo', val: 2 })
 
-  // newLinks.push({ source: 'lab-orbia-bay', target: 'labGroup', val: 2 })
-  newLinks.push({ source: 'Palmwood', target: 'labGroup', val: 2 })
+  newLinks.push({ source: 'lab-palmwood', target: 'labGroup', val: 2 })
+  newLinks.push({ source: 'lab-lighthouse', target: 'labGroup', val: 2 })
   newLinks.push({ source: 'lab-group-d-ford', target: 'labGroup', val: 2 })
   newLinks.push({ source: 'lab-la-victoria-lima', target: 'labGroup', val: 2 })
 
@@ -142,7 +153,6 @@ function initializeGraph(data, el,  handleNodeClick) {
     (el)
     .backgroundColor('rgba(0, 0, 0, 0)')
     .graphData(data)
-    .nodeLabel('fullName')
     // .nodeAutoColorBy('studio')
     .nodeColor(function (node) {
 
@@ -158,23 +168,13 @@ function initializeGraph(data, el,  handleNodeClick) {
       return node.val;
     })
     .nodeLabel(function (node) {
-      if (node.entityType === 'individual') {
-        console.log(node.image)
-        return `
-          <div class="pa3 node-label flex flex-row flex-wrap">
-            <main class="flex flex-column">
-              <h1 class="f5 ma0 fw7">${node.fullName}</h1>
-            </main>
-          </div>
-        `
-      } else {
-        return `
-          <div class="f5 tracked pa2 node-label">
-            ${node.fullName}
-          </div>
-        `
-      }
-      
+      return `
+        <div class="pa3 node-label flex flex-row flex-wrap">
+          <main class="flex flex-column">
+            <h1 class="f5 ma0 fw7">${node.fullName}</h1>
+          </main>
+        </div>
+      `
     })
     .nodeThreeObject(function (node) {
       let geometry = null
@@ -335,7 +335,7 @@ function App() {
     { gridOpen &&
       <CardGrid
         handleCloseClick={() => { 
-          console.log('close click')
+          // console.log('close click')
           resetFilter(); 
           setGridOpen(false); 
           setSceneActive(true); 

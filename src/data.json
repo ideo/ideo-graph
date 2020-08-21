@@ -52,29 +52,6 @@
         "image":"images/Mike_See.jpg"
      },
      {
-        "id":"john-won",
-        "filterable":true,
-        "fullName":"John Won",
-        "entityType":"individual",
-        "roleFilter":[
-           "Business Development Director"
-        ],
-        "role":[
-           "Business Development Director"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"Co-Lab",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/John_Won.jpg"
-     },
-     {
         "id":"ian-lee",
         "filterable":true,
         "fullName":"Ian Lee",
@@ -120,52 +97,7 @@
         ],
         "image":"images/Joe_Gerber.jpg"
      },
-     {
-        "id":"zena-barakat",
-        "filterable":true,
-        "fullName":"Zena Barakat",
-        "entityType":"individual",
-        "roleFilter":[
-           "Design Director"
-        ],
-        "role":[
-           "Design Director"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"D4C",
-        "affiliationFilter":[
-           "Heartbeat"
-        ],
-        "image":"images/Zena_Barakat.jpg"
-     },
-     {
-        "id":"melanie-bell-mayeda",
-        "filterable":true,
-        "fullName":"Melanie Bell-Mayeda",
-        "entityType":"individual",
-        "roleFilter":[
-           "Design Director"
-        ],
-        "role":[
-           "Design Director"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"D4C",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Melanie_Bell-Mayeda.jpg"
-     },
+
      {
         "id":"bryan-walker",
         "filterable":true,
@@ -259,29 +191,6 @@
         "image":"images/Heather_Emerson.jpg"
      },
      {
-        "id":"tracee-worley",
-        "filterable":true,
-        "fullName":"Tracee Worley",
-        "entityType":"individual",
-        "roleFilter":[
-           "Senior Design Lead"
-        ],
-        "role":[
-           "Senior Design Lead"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"D4L",
-        "affiliationFilter":[
-           "Heartbeat"
-        ],
-        "image":"images/Tracee_Worley.jpg"
-     },
-     {
         "id":"sandy-speicher",
         "filterable":true,
         "fullName":"Sandy Speicher",
@@ -293,7 +202,7 @@
            "CEO"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "leadershipTeamFilter":[
            "Executive Leadership Team"
@@ -321,7 +230,7 @@
            "CFO"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "leadershipTeamFilter":[
            "Executive Leadership Team"
@@ -358,31 +267,7 @@
         ],
         "image":"images/Tim_Brown.jpg"
      },
-     {
-        "id":"lauren-collins",
-        "filterable":true,
-        "fullName":"Lauren Collins",
-        "entityType":"individual",
-        "roleFilter":[
-           "Chief of Staff"
-        ],
-        "role":[
-           "Chief of Staff"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"Global",
-        "affiliationFilter":[
-           "Pulse",
-           "Heartbeat",
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Lauren_Collins.jpg"
-     },
+
      {
         "id":"iain-roberts",
         "filterable":true,
@@ -395,7 +280,7 @@
            "COO"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "leadershipTeamFilter":[
            "Executive Leadership Team"
@@ -444,7 +329,7 @@
            "General Counsel"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "homeOffice":[
            "Bay"
@@ -467,7 +352,7 @@
            "Partner Emeritus"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "homeOffice":[
            "Bay"
@@ -598,52 +483,6 @@
            "Bay Regional Managing Director"
         ],
         "image":"images/Madison_Mount.jpg"
-     },
-     {
-        "id":"jen-casimiro",
-        "filterable":true,
-        "fullName":"Jen Casimiro",
-        "entityType":"individual",
-        "roleFilter":[
-           "Talent Lead"
-        ],
-        "role":[
-           "Talent Lead"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"SF OS",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Jen_Casimiro.jpg"
-     },
-     {
-        "id":"ian-groulx",
-        "filterable":true,
-        "fullName":"Ian Groulx",
-        "entityType":"individual",
-        "roleFilter":[
-           "Executive Design Director"
-        ],
-        "role":[
-           "Executive Design Director"
-        ],
-        "locationFilter":[
-           "Bay"
-        ],
-        "homeOffice":[
-           "Bay"
-        ],
-        "studio":"Super",
-        "affiliationFilter":[
-
-        ],
-        "image":"images/Ian_Groulx.jpg"
      },
      {
         "id":"clark-scheffy",
@@ -954,29 +793,6 @@
         "image":"images/Matt_Weiss.jpg"
      },
      {
-        "id":"justin-massa",
-        "filterable":true,
-        "fullName":"Justin Massa",
-        "entityType":"individual",
-        "roleFilter":[
-           "Executive Portfolio Director"
-        ],
-        "role":[
-           "Executive Portfolio Director"
-        ],
-        "locationFilter":[
-           "Chicago"
-        ],
-        "homeOffice":[
-           "Chicago"
-        ],
-        "studio":"Chicago",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Justin_Massa.jpg"
-     },
-     {
         "id":"jennifer-riel",
         "filterable":true,
         "fullName":"Jennifer Riel",
@@ -1054,98 +870,7 @@
         ],
         "image":"images/Travis_Lee.jpg"
      },
-     {
-        "id":"dwayne-edwards",
-        "filterable":true,
-        "fullName":"Dwayne Edwards",
-        "entityType":"individual",
-        "roleFilter":[
-           "Portfolio Director"
-        ],
-        "role":[
-           "Portfolio Director"
-        ],
-        "locationFilter":[
-           "Chicago"
-        ],
-        "homeOffice":[
-           "Chicago"
-        ],
-        "studio":"Chicago",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Dwayne_Edwards.jpg"
-     },
-     {
-        "id":"amie-ninh",
-        "filterable":true,
-        "fullName":"Amie Ninh",
-        "entityType":"individual",
-        "roleFilter":[
-           "Senior Talent Specialist"
-        ],
-        "role":[
-           "Senior Talent Specialist"
-        ],
-        "locationFilter":[
-           "Chicago"
-        ],
-        "homeOffice":[
-           "Chicago"
-        ],
-        "studio":"Chicago",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Amie_Ninh.jpg"
-     },
-     {
-        "id":"mike-stringer",
-        "filterable":true,
-        "fullName":"Mike Stringer",
-        "entityType":"individual",
-        "roleFilter":[
-           "Executive Design Director"
-        ],
-        "role":[
-           "Executive Design Director"
-        ],
-        "locationFilter":[
-           "Chicago"
-        ],
-        "homeOffice":[
-           "Chicago"
-        ],
-        "studio":"Chicago",
-        "affiliationFilter":[
-           "Heartbeat"
-        ],
-        "image":"images/Mike_Stringer.jpg"
-     },
-     {
-        "id":"kayla-gilbert",
-        "filterable":true,
-        "fullName":"Kayla Gilbert",
-        "entityType":"individual",
-        "roleFilter":[
-           "Talent Lead"
-        ],
-        "role":[
-           "Talent Lead"
-        ],
-        "locationFilter":[
-           "Chicago"
-        ],
-        "homeOffice":[
-           "Chicago"
-        ],
-        "studio":"Global",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Kayla_Gilbert.jpg"
-     },
+
      {
         "id":"labGroup",
         "filterable":false,
@@ -1243,7 +968,7 @@
            "Interim Chief Marketing Officer"
         ],
         "locationFilter":[
-           "London"
+           "Global"
         ],
         "homeOffice":[
            "London"
@@ -1388,29 +1113,7 @@
         ],
         "image":"images/Emilie_Colker.jpg"
      },
-     {
-        "id":"papa-akuffo",
-        "filterable":true,
-        "fullName":"Papa Akuffo",
-        "entityType":"individual",
-        "locationFilter":[
-           "London"
-        ],
-        "roleFilter":[
-           "Product Lead"
-        ],
-        "role":[
-           "Product Lead"
-        ],
-        "homeOffice":[
-           "London"
-        ],
-        "studio":"London",
-        "affiliationFilter":[
-           "Helix Leadership Circle"
-        ],
-        "image":"images/Papa_Akuffo.jpg"
-     },
+
      {
         "id":"anne-kim",
         "filterable":true,
@@ -1631,7 +1334,7 @@
            "Global Talent Director"
         ],
         "locationFilter":[
-           "New York"
+           "Global"
         ],
         "homeOffice":[
            "New York"
@@ -1654,7 +1357,7 @@
            "Global Technology Director"
         ],
         "locationFilter":[
-           "New York"
+           "Global"
         ],
         "homeOffice":[
            "New York"
@@ -1677,7 +1380,7 @@
            "Chief Creative Officer"
         ],
         "locationFilter":[
-           "New York"
+           "Global"
         ],
         "homeOffice":[
            "New York"
@@ -1778,7 +1481,7 @@
            "Executive Design Director"
         ],
         "locationFilter":[
-           "Palmwood",
+           "lab-palmwood",
            "Labs"
         ],
         "homeOffice":[
@@ -1813,7 +1516,7 @@
           "Palo Alto", "Tokyo"
         ],
         "locationFilter":[
-           "Lab"
+           "Labs"
         ],
         "entityType":"labGroup"
      },

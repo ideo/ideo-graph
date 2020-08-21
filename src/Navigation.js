@@ -64,41 +64,6 @@ function Navigation({
               ))}
             </ul>
 
-            <header className="flex flex-row items-center justify-start">
-              <h3 className="f5 fw7 mb2 mt4 mr2">
-                Filter By Leadership Teams
-</h3>
-
-            </header>
-
-            <ul className="filters filters-leadership-teams flex flex-column">
-              {leadershipTeamFilterValues.sort().map((filter, idx) => (
-                <li
-                  key={idx}
-                  onClick={filterByLeadershipTeam.bind(null, filter)}
-                  className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
-                  {filter}
-                </li>
-              ))}
-            </ul>
-
-            <header className="flex flex-row items-center justify-start">
-              <h3 className="f5 fw7 mb2 mt4 mr2">
-                Filter By Groups
-</h3>
-
-            </header>
-
-            <ul className="filters filters-affiliations flex flex-column">
-              {affiliationFilterValues.sort().map((filter, idx) => (
-                <li
-                  key={idx}
-                  onClick={filterByAffiliation.bind(null, filter)}
-                  className={`filter mb1 filter-role flex flex-column ${filter === activeFilter ? 'active' : ''}`}>
-                  {filter}
-                </li>
-              ))}
-            </ul>
 
           </main>
           <footer className="pa2">
