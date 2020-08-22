@@ -13,7 +13,8 @@
         ],
         "locationFilter":[
            "Shanghai",
-           "Tokyo"
+           "Tokyo",
+           "Global"
         ],
         "homeOffice":[
            "Asia"
@@ -39,8 +40,7 @@
            "Executive Talent Director"
         ],
         "locationFilter":[
-           "Shanghai",
-           "Tokyo"
+           "Global"
         ],
         "homeOffice":[
            "Asia"
@@ -256,7 +256,7 @@
            "Chair"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "homeOffice":[
            "Bay"
@@ -306,7 +306,7 @@
            "Founder"
         ],
         "locationFilter":[
-           "Bay"
+           "Global"
         ],
         "homeOffice":[
            "Bay"
@@ -642,6 +642,9 @@
       "studio":"Super",
       "affiliationFilter":[
 
+      ],
+      "misc": [
+        "Managing Director for Super"
       ],
       "image":"images/Ian_Groulx.jpg"
    },
