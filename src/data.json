@@ -700,30 +700,6 @@
         "image":"images/Becky_Bermont.jpg"
      },
      {
-        "id":"michael-hendrix",
-        "filterable":true,
-        "fullName":"Michael Hendrix",
-        "entityType":"individual",
-        "roleFilter":[
-           "Global Director, Design"
-        ],
-        "role":[
-           "Global Director, Design"
-        ],
-        "locationFilter":[
-           "Cambridge"
-        ],
-        "homeOffice":[
-           "Cambridge"
-        ],
-        "studio":"Cambridge",
-        "affiliationFilter":[
-           "Pulse",
-           "Heartbeat"
-        ],
-        "image":"images/Michael_Hendrix.jpg"
-     },
-     {
         "id":"ari-adler",
         "filterable":true,
         "fullName":"Ari Adler",
@@ -1581,7 +1557,7 @@
            "Founder & Chairman"
         ],
         "role":[
-           "Founder & Chairman"
+           "Founder & Chairman of D4V"
         ],
         "locationFilter":[
            "Tokyo"
@@ -1604,7 +1580,7 @@
            "Founder & CEO"
         ],
         "role":[
-           "Founder & CEO"
+           "Founder & CEO of D4V"
         ],
         "locationFilter":[
            "Tokyo"

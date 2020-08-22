@@ -11,7 +11,20 @@ function CardGrid({ nodes, handleCloseClick }) {
       </header>
       <main className="flex flex-row flex-wrap">
         {
-          nodes.map((node, idx) => {
+          nodes.sort((one, two) => {
+            const firstName1 = one.firstName
+            const firstName2 = two.firstName
+            // console.log('_____',    two.fullName, one.fullName)
+            if (one.fullName > two.fullName) {
+              return 1;
+            }
+            if (two.fullName > one.fullName) {
+                return -1;
+            }
+            return 0;
+            // return one.fullName - two.fullName
+
+          }).map((node, idx) => {
             return (<Card key={idx} details={node} />)
           })
         }
