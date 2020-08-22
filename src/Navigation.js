@@ -68,8 +68,7 @@ function Navigation({
           </main>
           <footer className="pa2">
             <p className="lh-copy f7 fw4">
-              This is a map of IDEO decisoin makers by location.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat dui a quam congue, et vulputate erat iaculis. Cras velit lacus, pellentesque sit amet gravida at, laoreet a nulla.
+            This is a map of IDEO decision makers by location. <br/> It's meant to help with wayfinding for 101ers, as they get familiar with the breadth of IDEO! To see the full IDEO community, please head to <a className="black underline" href="https://inside.ideo.com">inside.IDEO.com</a>
         </p>
           </footer>
 

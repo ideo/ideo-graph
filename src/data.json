@@ -623,6 +623,29 @@
         "image":"images/David_Aycan.jpg"
      },
      {
+      "id":"ian-groulx",
+      "filterable":true,
+      "fullName":"Ian Groulx",
+      "entityType":"individual",
+      "roleFilter":[
+         "Executive Design Director"
+      ],
+      "role":[
+         "Executive Design Director"
+      ],
+      "locationFilter":[
+         "Bay"
+      ],
+      "homeOffice":[
+         "Bay"
+      ],
+      "studio":"Super",
+      "affiliationFilter":[
+
+      ],
+      "image":"images/Ian_Groulx.jpg"
+   },
+     {
         "id":"lab-palmwood",
         "filterable":true,
         "fullName":"Palmwood",
@@ -720,7 +743,7 @@
         "affiliationFilter":[
 
         ],
-        "image":"images/Ari_Nadler.jpg"
+        "image":"images/Ari_Adler.jpg"
      },
      {
         "id":"nick-dupey",
@@ -982,9 +1005,9 @@
         "image":"images/James_Higgs.jpg"
      },
      {
-        "id":"sue-sidall",
+        "id":"sue-siddall",
         "filterable":true,
-        "fullName":"Sue Sidall",
+        "fullName":"Sue Siddall",
         "entityType":"individual",
         "roleFilter":[
            "Managing Director"
@@ -1009,12 +1032,12 @@
         "misc":[
            "Europe Regional Managing Director"
         ],
-        "image":"images/Sue_Sidall.jpg"
+        "image":"images/Sue_Siddall.jpg"
      },
      {
-        "id":"lorraine-clark",
+        "id":"lorraine-clarke",
         "filterable":true,
-        "fullName":"Lorraine Clark",
+        "fullName":"Lorraine Clarke",
         "entityType":"individual",
         "locationFilter":[
            "London"
@@ -1035,7 +1058,7 @@
         "affiliationFilter":[
            "Helix Leadership Circle"
         ],
-        "image":"images/Lorraine_Clark.jpg"
+        "image":"images/Lorraine_Clarke.jpg"
      },
      {
         "id":"rebecca-wint",
@@ -1061,7 +1084,7 @@
         "affiliationFilter":[
            "Helix Leadership Circle"
         ],
-        "image":"images/Rebecca_(Bex)_Wint.jpg"
+        "image":"images/Rebecca_Wint.jpg"
      },
      {
         "id":"emilie-colker",
@@ -1192,7 +1215,7 @@
         "affiliationFilter":[
 
         ],
-        "image":"images/James_(Jamie)_Styles.jpg"
+        "image":"images/Jamie_Styles.jpg"
      },
      {
         "id":"chris-parkhill",
