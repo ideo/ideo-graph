@@ -54,7 +54,7 @@ function createLinks({ nodes, links }) {
     fullName: location,
     entityType: 'location'
   })).filter(({ id, fullName }) => {
-    console.log(id, fullName )
+    // console.log(id, fullName )
     return !['lab-palmwood', 'Labs'].includes(fullName);
     // return true;
   })
@@ -265,7 +265,7 @@ function App() {
       links,
       nodes: [...filteredFilterableNodes, ...otherNodes]
     };
-    console.log(filteredFilterableNodes)
+    // console.log(filteredFilterableNodes)
     setData(filteredData)
     window.scrollTo(0, 0);
     setGridOpen(true);
@@ -282,7 +282,7 @@ function App() {
       createLinks(data),
       sceneEl.current,
       (node) => {
-        console.log(node, ' peek a boo')
+        // console.log(node, ' peek a boo')
         if (node.filterable) {
           setData({nodes: [node], links: []})
           setGridOpen(true)
