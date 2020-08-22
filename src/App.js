@@ -334,6 +334,7 @@ function App() {
 
     { gridOpen &&
       <CardGrid
+        activeFilter={activeFilter}
         handleCloseClick={() => { 
           // console.log('close click')
           resetFilter(); 
